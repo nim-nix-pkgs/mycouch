@@ -11,6 +11,7 @@
   inputs.src-mycouch-main.ref   = "refs/heads/main";
   inputs.src-mycouch-main.owner = "hamidb80";
   inputs.src-mycouch-main.repo  = "mycouch";
+  inputs.src-mycouch-main.dir   = "";
   inputs.src-mycouch-main.type  = "github";
   
   inputs."macroutils".owner = "nim-nix-pkgs";

@@ -11,6 +11,7 @@
   inputs.src-mycouch-0_4_0.ref   = "refs/tags/0.4.0";
   inputs.src-mycouch-0_4_0.owner = "hamidb80";
   inputs.src-mycouch-0_4_0.repo  = "mycouch";
+  inputs.src-mycouch-0_4_0.dir   = "";
   inputs.src-mycouch-0_4_0.type  = "github";
   
   inputs."macroutils".owner = "nim-nix-pkgs";
