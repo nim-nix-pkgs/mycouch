@@ -11,7 +11,6 @@
   inputs.src-mycouch-main.ref   = "refs/heads/main";
   inputs.src-mycouch-main.owner = "hamidb80";
   inputs.src-mycouch-main.repo  = "mycouch";
-  inputs.src-mycouch-main.dir   = "";
   inputs.src-mycouch-main.type  = "github";
   
   inputs."macroutils".owner = "nim-nix-pkgs";
@@ -29,6 +28,14 @@
   inputs."macroplus".type  = "github";
   inputs."macroplus".inputs.nixpkgs.follows = "nixpkgs";
   inputs."macroplus".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/hamidb80/coverage".owner = "nim-nix-pkgs";
+  inputs."github.com/hamidb80/coverage".ref   = "master";
+  inputs."github.com/hamidb80/coverage".repo  = "github.com/hamidb80/coverage";
+  inputs."github.com/hamidb80/coverage".dir   = "";
+  inputs."github.com/hamidb80/coverage".type  = "github";
+  inputs."github.com/hamidb80/coverage".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/hamidb80/coverage".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
