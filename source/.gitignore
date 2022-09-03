@@ -1,0 +1,7 @@
+play.*
+*.exe
+
+docRepo/
+.vscode
+
+temp.*
